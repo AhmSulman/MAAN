@@ -1,0 +1,79 @@
+2026-04-26 15:13:15 | INFO     | ℹ️  onnxruntime-gpu not installed. Using Tesseract CPU OCR.
+2026-04-26 15:13:15 | WARNING  | ⚠️  Tesseract not found — scanned pages will be skipped
+2026-04-26 15:13:15 | WARNING  |     Windows install: https://github.com/UB-Mannheim/tesseract/wiki
+2026-04-26 15:13:15 | WARNING  | ⚠️  No PDFs in 'data/input'. Drop some and retry.
+2026-04-26 15:14:09 | INFO     | ℹ️  onnxruntime-gpu not installed. Using Tesseract CPU OCR.
+2026-04-26 15:14:09 | WARNING  | ⚠️  Tesseract not found — scanned pages will be skipped
+2026-04-26 15:14:09 | WARNING  |     Windows install: https://github.com/UB-Mannheim/tesseract/wiki
+2026-04-26 15:14:10 | INFO     | 🚀 MAAN Pipeline starting — 7 PDFs, 4 workers
+2026-04-26 15:14:10 | INFO     | ℹ️  No index found. Run: python main.py ingest
+2026-04-26 15:14:10 | INFO     | 📄 Queued: 2.Michael_T._Goodrich PYTHON DSA.pdf (770 pages)
+2026-04-26 15:14:10 | INFO     | 📄 Queued: Black Hat Python Python Programming for Hackers and Pentesters (Justin Seitz) (z-lib.org).pdf (193 pages)
+2026-04-26 15:14:10 | INFO     | 📄 Queued: Build a Large Language Mode_ (z-library.sk, 1lib.sk, z-lib.sk).pdf (370 pages)
+2026-04-26 15:14:10 | INFO     | 📄 Queued: C 10 and .NET 6 – Modern Cr_ (Z-Library).pdf (1014 pages)
+2026-04-26 15:14:10 | INFO     | 📄 Queued: C# and .NET QuickStart Guide by John Thomas.pdf (199 pages)
+2026-04-26 15:14:10 | INFO     | 📄 Queued: Deep Learning with Python (_ (Z-Library).pdf (255 pages)
+2026-04-26 15:14:10 | INFO     | 📄 Queued: Python Programming Handbook_ (Z-Library).pdf (149 pages)
+2026-04-26 15:14:11 | INFO     |    🖼️  [1] Black Hat Python Python Programming for Hackers and Pentesters (Justin Seitz) (z-lib.org).pdf: 2 pages → GPU OCR
+2026-04-26 15:14:11 | INFO     |    💾 Saved: data/txt/Black Hat Python Python Programming for Hackers and Pentesters (Justin Seitz) (z-lib.org).txt + .json
+2026-04-26 15:14:11 | INFO     |    💾 Saved: Black Hat Python Python Programming for Hackers and Pentesters (Justin Seitz) (z-lib.org).pdf
+2026-04-26 15:14:12 | INFO     |    🖼️  [2] Build a Large Language Mode_ (z-library.sk, 1lib.sk, z-lib.sk).pdf: 3 pages → GPU OCR
+2026-04-26 15:14:12 | INFO     |    💾 Saved: data/txt/Build a Large Language Mode_ (z-library.sk, 1lib.sk, z-lib.sk).txt + .json
+2026-04-26 15:14:12 | INFO     |    💾 Saved: Build a Large Language Mode_ (z-library.sk, 1lib.sk, z-lib.sk).pdf
+2026-04-26 15:14:12 | INFO     |    💾 Saved: data/txt/C# and .NET QuickStart Guide by John Thomas.txt + .json
+2026-04-26 15:14:12 | INFO     |    💾 Saved: C# and .NET QuickStart Guide by John Thomas.pdf
+2026-04-26 15:14:13 | INFO     |    🖼️  [1] Python Programming Handbook_ (Z-Library).pdf: 1 pages → GPU OCR
+2026-04-26 15:14:13 | INFO     |    💾 Saved: data/txt/Python Programming Handbook_ (Z-Library).txt + .json
+2026-04-26 15:14:13 | INFO     |    💾 Saved: Python Programming Handbook_ (Z-Library).pdf
+2026-04-26 15:14:13 | INFO     |    💾 Saved: data/txt/Deep Learning with Python (_ (Z-Library).txt + .json
+2026-04-26 15:14:13 | INFO     |    💾 Saved: Deep Learning with Python (_ (Z-Library).pdf
+2026-04-26 15:14:14 | INFO     |    🖼️  [0] 2.Michael_T._Goodrich PYTHON DSA.pdf: 5 pages → GPU OCR
+2026-04-26 15:14:14 | INFO     |    💾 Saved: data/txt/2.Michael_T._Goodrich PYTHON DSA.txt + .json
+2026-04-26 15:14:14 | INFO     |    💾 Saved: 2.Michael_T._Goodrich PYTHON DSA.pdf
+2026-04-26 15:14:14 | INFO     |    🖼️  [3] C 10 and .NET 6 – Modern Cr_ (Z-Library).pdf: 3 pages → GPU OCR
+2026-04-26 15:14:15 | INFO     |    💾 Saved: data/txt/C 10 and .NET 6 – Modern Cr_ (Z-Library).txt + .json
+2026-04-26 15:14:15 | INFO     |    💾 Saved: C 10 and .NET 6 – Modern Cr_ (Z-Library).pdf
+2026-04-26 15:14:48 | INFO     | 🧠 Loading embedder: all-MiniLM-L6-v2...
+2026-04-26 15:15:01 | INFO     | ✅ Embedder ready
+2026-04-26 15:21:43 | INFO     | 💾 Index saved: 6803 chunks
+2026-04-26 15:21:43 | INFO     | =======================================================
+2026-04-26 15:21:43 | INFO     | ✅ Done in 453.7s
+2026-04-26 15:21:43 | INFO     |    Processed : 7
+2026-04-26 15:21:43 | INFO     |    Skipped   : 0
+2026-04-26 15:21:43 | INFO     |    Failed    : 0
+2026-04-26 15:21:43 | INFO     |    Pages     : 2950
+2026-04-26 15:21:43 | INFO     |    Speed     : 6.5 pages/sec
+2026-04-26 15:21:43 | INFO     | =======================================================
+2026-04-26 15:29:24 | INFO     | 🔄 Loading MAAN RAG pipeline...
+2026-04-26 15:29:24 | INFO     | 📂 Index loaded: 6803 chunks from 7 docs
+2026-04-26 15:29:24 | INFO     | 🧠 Loading LLM: mistral-7b-instruct-v0.2.Q4_K_M.gguf
+2026-04-26 15:29:24 | INFO     |    GPU layers: 35 → RTX 4050 VRAM
+2026-04-26 15:29:28 | INFO     | ✅ LLM loaded and ready!
+2026-04-26 15:29:55 | INFO     | 🧠 Loading embedder: all-MiniLM-L6-v2...
+2026-04-26 15:30:08 | INFO     | ✅ Embedder ready
+2026-04-26 15:30:09 | INFO     | 📚 Found 5 relevant chunks from: ['Black Hat Python Python Programming for Hackers and Pentesters (Justin Seitz) (z-lib.org).pdf']
+2026-04-26 15:31:59 | INFO     | 📚 Found 5 relevant chunks from: ['Black Hat Python Python Programming for Hackers and Pentesters (Justin Seitz) (z-lib.org).pdf', 'C 10 and .NET 6 – Modern Cr_ (Z-Library).pdf']
+2026-04-26 15:40:07 | INFO     | 📚 Found 5 relevant chunks from: ['Black Hat Python Python Programming for Hackers and Pentesters (Justin Seitz) (z-lib.org).pdf']
+2026-04-26 15:40:43 | INFO     | 🔄 Loading MAAN RAG pipeline...
+2026-04-26 15:40:43 | INFO     | 📂 Index loaded: 6803 chunks from 7 docs
+2026-04-26 15:40:43 | INFO     | 🧠 Loading LLM: mistral-7b-instruct-v0.2.Q4_K_M.gguf
+2026-04-26 15:40:43 | INFO     |    GPU layers: 35 → RTX 4050 VRAM
+2026-04-26 15:40:46 | INFO     | ✅ LLM loaded and ready!
+2026-04-26 15:41:01 | INFO     | 🔄 Loading MAAN RAG pipeline...
+2026-04-26 15:41:01 | INFO     | 📂 Index loaded: 6803 chunks from 7 docs
+2026-04-26 15:41:01 | INFO     | 🧠 Loading LLM: mistral-7b-instruct-v0.2.Q4_K_M.gguf
+2026-04-26 15:41:01 | INFO     |    GPU layers: 35 → RTX 4050 VRAM
+2026-04-26 15:41:04 | INFO     | ✅ LLM loaded and ready!
+2026-04-26 15:41:31 | INFO     | 🧠 Loading embedder: all-MiniLM-L6-v2...
+2026-04-26 15:41:42 | INFO     | ✅ Embedder ready
+2026-04-26 15:41:42 | INFO     | 📚 Found 5 relevant chunks from: ['Black Hat Python Python Programming for Hackers and Pentesters (Justin Seitz) (z-lib.org).pdf']
+2026-04-26 15:45:16 | INFO     | 📚 Found 5 relevant chunks from: ['Black Hat Python Python Programming for Hackers and Pentesters (Justin Seitz) (z-lib.org).pdf']
+2026-04-26 15:51:59 | INFO     | 📚 Found 5 relevant chunks from: ['Black Hat Python Python Programming for Hackers and Pentesters (Justin Seitz) (z-lib.org).pdf']
+2026-04-30 19:56:00 | INFO     | 🔄 Loading MAAN RAG pipeline...
+2026-04-30 19:56:00 | INFO     | 📂 Index loaded: 6803 chunks from 7 docs
+2026-04-30 19:56:01 | INFO     | 🧠 Loading LLM: mistral-7b-instruct-v0.2.Q4_K_M.gguf
+2026-04-30 19:56:01 | INFO     |    GPU layers: 35 → RTX 4050 VRAM
+2026-04-30 19:56:06 | INFO     | ✅ LLM loaded and ready!
+2026-04-30 19:57:00 | INFO     | 🧠 Loading embedder: all-MiniLM-L6-v2...
+2026-04-30 19:57:24 | INFO     | ✅ Embedder ready
+2026-04-30 19:57:24 | INFO     | 📚 Found 5 relevant chunks from: ['Build a Large Language Mode_ (z-library.sk, 1lib.sk, z-lib.sk).pdf', 'Deep Learning with Python (_ (Z-Library).pdf']
